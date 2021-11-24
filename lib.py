@@ -65,7 +65,7 @@ def get_vcf_file(csv_file):
 def write_file(file,data):
   with open(os.path.join(os. path. dirname(__file__), file),"w") as f:
     f.write(data)
-
+print("HOLA")
 def csv2vcf(csv_file, vcf_file):
   data = get_vcf_file(csv_file)
   # print(file)
